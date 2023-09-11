@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="530.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.titanic.Grafico2">
+   <children>
+      <BarChart fx:id="chart" layoutX="8.0" layoutY="17.0" prefHeight="512.0" prefWidth="668.0" title="Quantidade de Mortes por Sexo">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" prefHeight="409.0" prefWidth="17.0" side="LEFT" upperBound="1000.0" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
